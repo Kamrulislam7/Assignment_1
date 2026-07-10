@@ -15,7 +15,7 @@ h2 {
   font-size: 56px;
   line-height: 64.4px;
   font-weight: bold;
-  color: rgba(0, 1, 2, 1);
+  color: #0d1b2a;
   text-align: center;
 }
 
@@ -243,4 +243,132 @@ nav ul li a {
   font-size: 14px;
   font-weight: 600;
   line-height: 21px;
+}
+
+.pro-color {
+  background-color: #0d1b2a;
+  border: 1px solid #0d1b2a;
+}
+.pro-color .top-title {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.11);
+}
+.pro-color .top-title h6 {
+  color: #60a5fa;
+}
+.pro-color .top-title h2 {
+  color: #ffffff;
+}
+.pro-color .top-title p {
+  color: rgba(255, 255, 255, 0.5);
+}
+.pro-color .offers ul li {
+  color: rgba(255, 255, 255, 0.801);
+}
+.pro-color .offers ul li::marker {
+  color: #60a5fa;
+}
+
+/* challange section  */
+
+.challange {
+  margin-top: 40px;
+}
+.challange p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 24px;
+  color: #575757;
+  margin-top: 12px;
+}
+.qus-anw_part {
+  display: flex;
+  justify-content: center;
+  margin: 60px 100px;
+  gap: 30px;
+}
+.left-content {
+  flex-basis: 30%;
+  border: 1px solid #e5e7eb;
+  padding: 15px;
+}
+.left-content h4 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 27.5px;
+  color: #0d1b2a;
+}
+.left-content p {
+  font-size: 15px;
+  text-align: left;
+}
+.faq-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background: #5285f31f;
+  border-radius: 100%;
+  margin-bottom: 30px;
+}
+.faq-image img {
+  width: 60%;
+}
+
+.more-help {
+  position: relative;
+  padding: 30px;
+  margin-top: 60px;
+}
+.more-help-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+}
+.more-help-image img {
+  width: 100%;
+}
+.more-help h4 {
+  font-size: 16px;
+}
+.more-help p {
+  margin: 0;
+}
+.more-help a {
+  text-decoration: none;
+  color: #2563eb;
+  font-size: 16px;
+}
+
+.right-content {
+  flex-basis: 60%;
+}
+.qus-cards {
+}
+.qus-card {
+  display: flex;
+  width: 600px;
+  padding: 25px;
+  border: 1px solid #e5e7eb;
+
+  border-radius: 8px;
+  justify-content: space-between;
+}
+
+.qus-card:not(:last-child) {
+  margin-bottom: 20px;
+}
+.qus-card h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0d1b2a;
+}
+.answer p {
+  text-align: left;
+  padding: 30px 50px 20px 0;
 }

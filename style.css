@@ -4,6 +4,7 @@
 }
 
 body {
+  box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
 .container {
@@ -12,14 +13,11 @@ body {
 }
 
 h2 {
-  font-size: 56px;
-  line-height: 64.4px;
+  font-size: 48px;
+  line-height: 60px;
   font-weight: bold;
   color: #0d1b2a;
   text-align: center;
-}
-
-header {
 }
 
 .navbar {
@@ -33,18 +31,13 @@ header {
 .logo {
   height: 44px;
 }
-.logo img {
-}
 
-nav {
-}
 nav ul {
   display: flex;
   list-style: none;
   gap: 24px;
 }
-nav ul li {
-}
+
 nav ul li a {
   text-decoration: none;
   color: #575757;
@@ -127,12 +120,14 @@ nav ul li a {
   height: 460px;
   box-sizing: border-box;
   border: 1px solid #e5e7eb;
+  border-radius: 12px;
 }
 .card-image {
   width: 612px;
   height: 324px;
 }
 .card-image img {
+  border-radius: 12px 12px 0 0;
   width: 100%;
 }
 
@@ -145,6 +140,7 @@ nav ul li a {
   letter-spacing: 3px;
   line-height: 18px;
   color: #2563eb;
+  text-transform: uppercase;
 }
 .card-details h3 {
   font-size: 20px;
@@ -348,14 +344,12 @@ nav ul li a {
 .right-content {
   flex-basis: 60%;
 }
-.qus-cards {
-}
+
 .qus-card {
   display: flex;
   width: 600px;
   padding: 25px;
   border: 1px solid #e5e7eb;
-
   border-radius: 8px;
   justify-content: space-between;
 }
@@ -400,6 +394,7 @@ footer {
 .footer-logo p {
   font-size: 20px;
   font-weight: bold;
+  font-family: "Arimo", sans-serif;
   line-height: 22px;
   letter-spacing: -0.6px;
   color: #ffffffcc;
@@ -439,17 +434,13 @@ footer {
   display: flex;
   align-items: center;
 }
+.copyright-right {
+  gap: 24px;
+}
 .copyright-left p,
 .copyright-right p {
   font-size: 16px;
   color: #aaaaaa;
   font-weight: 400;
   letter-spacing: -0.4;
-}
-.green-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 100%;
-  background-color: #203f30;
-  margin: 0 8px;
 }

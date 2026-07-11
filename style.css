@@ -318,13 +318,11 @@ nav ul li a {
   margin-top: 60px;
 }
 .more-help-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 20px;
   height: 20px;
   position: absolute;
   left: 0;
+  top: 32px;
 }
 .more-help-image img {
   width: 100%;
